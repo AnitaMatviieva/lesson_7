@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,700&display=swap');
+
+.head{
+	margin-bottom: 50px;
+}
+
+/* Верстка із макету*/
+.begin__container{
+	font-family: "Lato";
+	color: #424551;
+}
+
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+
+.begin__title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 26px;
+}
+
+.begin__image {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.begin__image img {
+	max-width: 100%;
+}
+
+.begin__main-text {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+
+.begin__text {
+	line-height: 160%;
+	margin-bottom: 48px;
+}
+
+.begin__text p {
+	margin-bottom: 22px;
+}
+
+.begin__text ul {
+	margin-bottom: 24px;
+}
+
+.begin__text li {
+	margin-bottom: 4px;
+	padding-left: 32px;
+}
+
+.begin__blockquote {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 48px;
+	margin-left: 52px;
+}
+
+
+
+
+	
+
+
+/* Пропрацювання всіх тегів із уроку 7 */
+
+
+.poems{
+	text-align: center;
+	background-image: linear-gradient(90deg, rgba(43, 139, 235, 1) 45%, rgba(255, 186, 0, 1) 59%);
+	font-family:"Playfair Display", serif;
+	font-style: italic;
+}
+
+.poem{
+	font-weight: 700;
+	font-size: 35px;
+	letter-spacing: 15px;
+	margin-bottom: 30px;
+	background-image:linear-gradient(90deg, rgba(43, 163, 235, 1) 45%, rgba(245, 255, 0, 1) 59%); ;
+}
+
+.ukrain{
+	font-size: 20px;
+	background: url("../img/poems.jpeg") fixed;
+	margin-bottom: 25px;
+}
+
+h3{
+	font-weight: 400 ;
+	font-size: 25px;
+	letter-spacing: 5px;
+	margin-bottom: 25px;
+	background-color: #99CCFF ;
+}
+
+
+
+.testament{
+	margin-bottom: 25px;
+	background: url("../img/images.jpeg")400px 1px/ contain no-repeat ;
+}
+
+.wings{
+	margin-bottom: 25px;
+	background: url("../img/Lina-Kostenko.jpeg") 50px 50px / 300px 200px;
+	color: #660000;
+}
+
+.city{
+	margin-bottom: 25px;
+	background: url("../img/depositphotos_201466934-stock-photo-portrait-of-hryhoriy-skovoroda-from.jpeg") center repeat-y;
+	
+}
+
+.everywhere{
+	margin-bottom: 30px;
+	background: url("../img/26-lesia-ukrainka.jpeg") 10px 1px/  contain repeat-x;
+	
+	
+}
+
+.end{
+margin-bottom: 20px;
+font-size: 20px;
+color: #333366;
+border:2px dashed #006666;
+max-width: 500px;}
+
+.kostenko{
+	max-width: 500px;}
+
+
+.gradient{
+	background-image: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);}
